@@ -1,0 +1,27 @@
+.phone-number-form {
+  display: inline-flex;
+  width: fit-content;
+  background-color: black;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.phone-number-form input {
+  padding: 1rem;
+  border-radius: 20px 0px 0px 20px;
+  background-color: black;
+  color: gray;
+  outline: none;
+  border: 0px;
+}
+.phone-number-form .submit-button {
+  border-radius: 20px;
+  margin-left: -20px;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+input[type=text] {
+  color: white;
+  font-weight: 500;
+}

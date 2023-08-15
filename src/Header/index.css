@@ -1,0 +1,37 @@
+.homePage {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 90px;
+}
+.paycheck-button {
+  border-radius: 12px;
+  font-weight: 500;
+  height: 40px;
+  width: 150px;
+  font-family: "Matter", "-apple-system", "system-ui", "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-feature-settings: "kern";
+  opacity: 0.6;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+}
+
+.paycheck-button:hover {
+  opacity: 1;
+  color: rgba(125, 237, 221, 1);
+}
+
+.App-logo {
+  width: 120px;
+  height: 90px;
+  pointer-events: none;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}

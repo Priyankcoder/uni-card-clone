@@ -1,0 +1,12 @@
+.footer-content {
+  padding: 20px 200px;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0px;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+  width: 100%;
+}
